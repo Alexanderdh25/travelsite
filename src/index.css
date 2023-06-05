@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Nav Component */
+.nav {
+  background: #F34F50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  padding: 20px;
+}
+
+.nav .navIcon {
+  font-size: 25px;
+}
+
+.nav .navTitle {
+  margin-left: 8px;
+}
+
+/* Card Component  */
+
+/* * {
+  margin: 0px;
+  padding: 0px;
+} */
+
+.main {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.card-container {
+  display: flex;
+  padding: 68px 0px;
+  border-bottom: 1px solid #eee;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ .card-image {
+  max-width: 245px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.card {
+  padding: 28px;
+  width: 70%;
+}
+
+.card .card-location {
+  display: flex;
+  align-items: center;
+}
+
+
+.locationIcon {
+  color: #F34F50;
+}
+
+.card-country {
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card-location .googleUrl {
+  margin-left: 10px;
+  text-decoration: underline;
+  color: #ccc;
+}
+
+.card .date{
+  margin-top: 25px;
+}
+
+.card .description {
+  margin-top: 8px;
+}
